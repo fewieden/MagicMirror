@@ -2,8 +2,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.2] - Unreleased
 
-## [2.1.1] - Unreleased
+### Changed
+
+### Added
+- Add in option to wrap long calendar events to multiple lines using `wrapEvents` configuration option.
+
+### Updated
+- Added missing keys to Polish translation.
+
+## [2.1.1] - 2017-04-01
 
 **Note:** This update uses new dependencies. Please update using the following command: `git pull && npm install`
 
@@ -55,8 +64,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Added hideLoading option for News Feed module.
 - Added configurable dateFormat to clock module.
 - Added multiple calendar icon support.
+- Added tests for Translations, dev argument, version, dev console.
+- Added test anytime feature compliments module.
+- Added test ipwhitelist configuration directive.
+- Added test for calendar module: default, basic-auth, backward compability, fail-basic-auth.
 - Added meta tags to support fullscreen mode on iOS (for server mode)
 - Added `ignoreOldItems` and `ignoreOlderThan` options to the News Feed module
+- Added test for MM_PORT enviroment variable.
+- Added a configurable Week section to the clock module.
 
 ### Fixed
 - Update .gitignore to not ignore default modules folder.
@@ -67,6 +82,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Module currentWeather: check if temperature received from api is defined.
 - Fix an issue with module hidden status changing to `true` although lock string prevented showing it.
 - Fix newsfeed module bug (removeStartTags)
+- Fix when is set MM_PORT enviroment variable.
 - Fixed missing animation on `this.show(speed)` when module is alone in a region.
 
 ## [2.1.0] - 2016-12-31
