@@ -50,13 +50,13 @@
     "mocha": "latest",
     "mocha-each": "latest",
     "mocha-logger": "latest",
-    "spectron": "^8.0.0",
+    "spectron": "^9.0.0",
     "stylelint": "latest",
     "stylelint-config-standard": "latest",
     "time-grunt": "latest"
   },
   "optionalDependencies": {
-    "electron": "^6.0.12"
+    "electron": "^7.1.11"
   },
   "dependencies": {
     "colors": "^1.1.2",
